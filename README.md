@@ -1,2 +1,1 @@
-# DataScienceFinalProject
-A repository to store everything I did for my Fall 2024 Data Science Final
+<h1>Andrew Tate and Jacob Benson's Data Science Final</h1>
