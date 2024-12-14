@@ -20,7 +20,7 @@ To accomplish these goals, we used several datasets, one on average monthly temp
 ## Methods and Results
 For this project, there were two main difficulties with the data. The first is that the death dataset was clamped to 2012 and 2014, which caused a huge lack of accuracy as we can only extrapolate two years of data from every dataset. The other challenge is that we are trying to present 3 categories of data on one visualization. For each visualization we need to showcase the geographical information alongside 2 other columns, for example, alcohol consumption and average temperature in the state. We both came up with different ways of showing this each with their own merits. Now we will each touch up on our separate processes: <br>
 
-# Andrews Analysis
+# Andrew's Analysis
 I thought the best place to start was to create a large dataframe that aggregates all of the data from the 3 dataframes, discarding the ones I don’t need. I filtered the alcohol preference dataframe to 2012-2014 and created a new dataframe containing a “State” “Year” and “Death_Rate_Per_100k” columns from the dui dataframe. I inner-joined these dataframes together. I then created a lambda function to calculate a “Most Popular Alcohol” column for each state and each year. As shown in the visualization below utilizing plotly’s choropleth: <br>
 {% MostPopularAlcoholByState.html %}  <br> 
 Here we can see that beer vastly outperforms all other types of alcoholic beverages, with wine being the least popular.  <br>
@@ -38,7 +38,7 @@ Now the challenge was merging these values to make some meaningful connections b
 {% TempAverageDUI.html %} <br>
 Here we can see a few interesting things. With the first visualization, we can see that people in the northern states vastly drink more than people in warm, southern states, with two exceptions in Louisiana and Florida. The bottom graph shows us equally useful info. Here we can see that there are pretty equal numbers of saturated red and blue states, telling us that the temperature of the state doesn’t seem to have an effect on the DUI death rates in that state. Here you are just as likely to die of a substance-influenced death in Montana as you are in Texas. <br>
 
-# Jacobs Analysis 
+# Jacob's Analysis 
 I first took the data from the two datasets, merged them together, and filtered our drinking datasets for the years 2012, and 2014 (the only years provided for driving death statistics. I then created a simple choropleth for the prevalence of drinking in 2014 by states. <br>
 //Insert Figure Here <br>
 We see some general trends of drinking, with lesser drinking in the “Bible Belt” and especially in Utah. <br>
