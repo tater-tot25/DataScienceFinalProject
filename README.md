@@ -72,7 +72,7 @@ In the temperature vs drinking visualization we can see some trends of higher dr
 <br>
 From the beer consumption vs dui deaths plot, we can see some correlation between beer consumption and DUI deaths, which could explain some of the higher levels of DUI deaths in the south, such as Alabama, Arkansas, South Carolina, or Louisiana. That being said, there are states with high levels of beer drinking, such as Minnesota, Wisconsin, or Nevada, yet they do not have high levels of DUI related deaths, indicating a lower correlation. <br>
 
-![Alt text]({{ site.https://tater-tot25.github.io/DataScienceFinalProject/ }}_includes/scatterPlot.png) <br>
+![Alt text]({{ site.baseurl }}/_includes/scatterPlot.png) <br>
 
 A simple scatter plot with groups of beer spirits and wine show that wine and spirits have little to no correlation, but beer appears to have a slightly higher positive correlation. <br>
 
