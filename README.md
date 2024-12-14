@@ -22,20 +22,20 @@ For this project, there were two main difficulties with the data. The first is t
 
 # Andrews Analysis
 I thought the best place to start was to create a large dataframe that aggregates all of the data from the 3 dataframes, discarding the ones I don’t need. I filtered the alcohol preference dataframe to 2012-2014 and created a new dataframe containing a “State” “Year” and “Death_Rate_Per_100k” columns from the dui dataframe. I inner-joined these dataframes together. I then created a lambda function to calculate a “Most Popular Alcohol” column for each state and each year. As shown in the visualization below utilizing plotly’s choropleth: <br>
-//Insert Figure Here <br> 
+{% MostPopularAlcoholByState.html %}  <br> 
 Here we can see that beer vastly outperforms all other types of alcoholic beverages, with wine being the least popular.  <br>
 
 I also used this dataframe to create a DUI Death Rate choropleth: <br>
-//Insert Figure Here <br>
+{% DeathRatePer100kByState.html %} <br>
 Here we can see that Montana, Wyoming, and North Dakota have large death rates for north states. Conversely New Mexico, Texas, Louisiana, and other southern bordering states also have large death rates. Meanwhile the middle states have relatively low rates. <br>
 
 And Finally, Most Consumption: <br>
-//Insert Figure Here <br>
+{% MostConsumption.html %} <br>
 Above we can see that northern states have lots of consumption, with Utah having virtually none. New Hampshire has a ton of consumption, for some reason. <br>
 
 Now the challenge was merging these values to make some meaningful connections between our data. At this point I also imported the temperature dataset. I resampled the average temperature to years instead of months, and filtered it to 2012 and 2014. I then merged it on state. I now needed a way to represent this 2D data. My solution was to have a color gradient system. The temperature is represented by a gradient between red and blue. Blue means a state is cold, while red means a state is warm, purple would be somewhere in between. Then the color’s saturation represents some other statistic, either alcohol consumption, or death rate. For example in a choropleth that compares alcohol consumption to temperature, a dark blue state would be a heavy drinking, cold state, while a light blue state is a light drinking cold state. Conversely, a dark red state is a heavy drinking warm state and a pink state is a light drinking warm state. This allows for our edge cases to really jump out. These visualizations are shown here: <br>
-//Insert Figure Here <br>
-//Insert Figure Here <br>
+{% TempAverageIntenseDrinking.html %} <br>
+{% TempAverageDUI.html %} <br>
 Here we can see a few interesting things. With the first visualization, we can see that people in the northern states vastly drink more than people in warm, southern states, with two exceptions in Louisiana and Florida. The bottom graph shows us equally useful info. Here we can see that there are pretty equal numbers of saturated red and blue states, telling us that the temperature of the state doesn’t seem to have an effect on the DUI death rates in that state. Here you are just as likely to die of a substance-influenced death in Montana as you are in Texas. <br>
 
 # Jacobs Analysis 
