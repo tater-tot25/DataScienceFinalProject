@@ -1,4 +1,7 @@
-<h1>Andrew Tate and Jacob Benson's Data Science Final</h1>
+<h1>Data Science Final</h1>
+<h2>
+Andrew Tate and Jacob Benson
+</h2>
 
 ## Colab Worksheet
 [Link to My Colab Notebook](https://github.com/tater-tot25/DataScienceFinalProject/blob/main/_includes/DataScienceFinalProject.ipynb) <br>
