@@ -47,7 +47,7 @@ Next I wanted a good way to display two quantitative variables on a locations ma
 Next I used a gradient function that I found on kaggle, and edited it to include the bounds of my data length, and plotted a bubble plot for alcohol consumption vs deaths in 2014. <br>
 <img src="_includes\Jacob Impaired Driving Deaths Compared To Levels of Drinking.png" alt="Impaired Driving Deaths Compared To Levels of Drinking" />
 This was fairly interesting as we didn’t see the trends that we expected to. Despite there being some areas of higher level of drinking associated with higher levels of drunk driving fatalities, in areas such as West Virginia, South Carolina, and Louisiana, we see a fairly high level of drunk driving fatalities with a fairly low level of drinking. Similarly, we see a fairly low rate of drunk driving fatalities with a high level of drinking in Arizona and New Hampshire. <br>
-//Insert Figure Here <br>
+<img src="_includes/Jacob Death Chart Four.png" alt="" />
 Similar results were found pertaining to 2012, with no obvious correlations between level of drinking or alcohol consumption and drunk driving deaths. <br>
 Next I wanted to make bubble plots with a slider for the type of alcohol (beer, spirits, wine) for the color, and the alcohol related driving fatalities as the size of the bubble, to see if there are any obvious correlations between a specific kind of alcohol and driving deaths. <br>
 //Insert Figure Here <br>
