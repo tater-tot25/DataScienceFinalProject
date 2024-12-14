@@ -1,7 +1,8 @@
 <h1>Andrew Tate and Jacob Benson's Data Science Final</h1>
 
 ## Colab Worksheet
-[Link to Colab Notebook](https://github.com/tater-tot25/DataScienceFinalProject/blob/main/_includes/DataScienceFinalProject.ipynb)
+[Link to My Colab Notebook](https://github.com/tater-tot25/DataScienceFinalProject/blob/main/_includes/DataScienceFinalProject.ipynb) <br>
+[Jacob's Colab Document Can Be Found Here](https://colab.research.google.com/drive/1yx-C8qmOBYUf44L6IYUxCCQr0ITAfu5X?usp=sharing ) <br>
 
 ### Project Report:
 Note: For Jacob's Visualizations and the conclusion visualizations that he did, they are presented as static images here, due to the colab document being updated past those visualizations, mine work though. 
@@ -56,8 +57,6 @@ In this plot we can see a correlation between alcohol level and driving deaths w
 In this plot we see little to no correlation to high levels of wine drinking and driving fatalities. The only exception to this could be Delaware, which has a fairly high level of wine drinking in addition to higher levels of deaths in the northeast region (but in the original combined drinking levels Delaware is also an outlier in the east coast). 
 <img src="{{ site.baseurl }}/images/Jacob Death Chart.png" alt="" />
 Finally from the spirits graph, we don’t see any obvious correlation between consumption and driving deaths, even though North Dakota, Wyoming and Delaware do present this correlation. The reason I say that there isn’t any obvious correlation is because of states such as South Carolina, West Virginia, Texas, Oklahoma, Alabama, or Arkansas, which have relatively low levels of spirit consumption with higher levels of alcohol related driving fatalities. <br>
-
-[Jacob's Colab Document Can Be Found Here](https://colab.research.google.com/drive/1yx-C8qmOBYUf44L6IYUxCCQr0ITAfu5X?usp=sharing ) <br>
 
 # Conclusion
 
