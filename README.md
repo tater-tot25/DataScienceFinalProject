@@ -4,7 +4,7 @@
 [Link to Colab Notebook](https://github.com/tater-tot25/DataScienceFinalProject/blob/main/_includes/DataScienceFinalProject.ipynb)
 
 ### Project Report:
-
+Note: For Jacob's Visualizations and the conclusion visualizations that he did, they are presented as static images here, due to the colab document being updated past those visualizations, mine work though. 
 
 
 ## Introduction
@@ -54,7 +54,7 @@ Next I wanted to make bubble plots with a slider for the type of alcohol (beer, 
 In this plot we can see a correlation between alcohol level and driving deaths with the aforementioned Louisiana and South Carolina having a fairly high level of beer drinking compared to the rest of the United States, which appears to be in greater relation to the higher level of driving deaths. This trend is visible around the country, with high levels of deaths in states such as North Dakota, Montana, South Dakota, all of which record high levels of beer drinking. There are, however, some exceptions like New Hampshire, Nevada, Arkansas, which have either high levels of beer drinking or high levels of deaths, but not both. <br>
 //Insert Figure Here <br>
 Finally from the spirits graph, we don’t see any obvious correlation between consumption and driving deaths, even though North Dakota, Wyoming and Delaware do present this correlation. The reason I say that there isn’t any obvious correlation is because of states such as South Carolina, West Virginia, Texas, Oklahoma, Alabama, or Arkansas, which have relatively low levels of spirit consumption with higher levels of alcohol related driving fatalities. <br>
-[Jacob's Collab Document Can Be Found Here](https://colab.research.google.com/drive/1yx-C8qmOBYUf44L6IYUxCCQr0ITAfu5X?usp=sharing ) <br>
+[Jacob's Colab Document Can Be Found Here](https://colab.research.google.com/drive/1yx-C8qmOBYUf44L6IYUxCCQr0ITAfu5X?usp=sharing ) <br>
 
 # Conclusion
 
