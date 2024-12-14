@@ -1,6 +1,6 @@
 <h1>Data Science Final</h1>
 <h2>
-Andrew Tate and Jacob Benson
+By Andrew Tate and Jacob Benson
 </h2>
 
 ## Colab Worksheet
