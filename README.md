@@ -40,12 +40,12 @@ Here we can see a few interesting things. With the first visualization, we can s
 
 # Jacob's Analysis 
 I first took the data from the two datasets, merged them together, and filtered our drinking datasets for the years 2012, and 2014 (the only years provided for driving death statistics. I then created a simple choropleth for the prevalence of drinking in 2014 by states. <br>
-//Insert Figure Here <br>
+<img src="_includesJacob Impaired Driving Deaths Compared To Levels of Drinking.png" alt="Impaired Driving Deaths Compared To Levels of Drinking" />
 We see some general trends of drinking, with lesser drinking in the “Bible Belt” and especially in Utah. <br>
 Next I wanted a good way to display two quantitative variables on a locations map by state, which I first thought to do opacity of color, but then opted to go with a bubble map, with size of the bubble in each state relating to driving deaths, and the color pertaining to the level of alcohol drinking in that particular state. My first challenge was West Virginia, which had a comma separating the state name followed by a latitude longitude pair, so I made a function to remove that comma, which I could then obtain latitude and longitude pairs for the central location for each state. <br>
 
 Next I used a gradient function that I found on kaggle, and edited it to include the bounds of my data length, and plotted a bubble plot for alcohol consumption vs deaths in 2014. <br>
-//Insert Figure Here <br>
+<img src="_includesJacob Impaired Driving Deaths Compared To Levels of Drinking.png" alt="Impaired Driving Deaths Compared To Levels of Drinking" />
 This was fairly interesting as we didn’t see the trends that we expected to. Despite there being some areas of higher level of drinking associated with higher levels of drunk driving fatalities, in areas such as West Virginia, South Carolina, and Louisiana, we see a fairly high level of drunk driving fatalities with a fairly low level of drinking. Similarly, we see a fairly low rate of drunk driving fatalities with a high level of drinking in Arizona and New Hampshire. <br>
 //Insert Figure Here <br>
 Similar results were found pertaining to 2012, with no obvious correlations between level of drinking or alcohol consumption and drunk driving deaths. <br>
@@ -69,6 +69,8 @@ From the beer consumption vs dui deaths plot, we can see some correlation betwee
 <img src="_includes/scatterPlot.png" alt="Scatter Plot" />
 
 A simple scatter plot with groups of beer spirits and wine show that wine and spirits have little to no correlation, but beer appears to have a slightly higher positive correlation. <br>
+
+<img src="_includes/regressionGraph.png" alt="Regression Graph" />
 
 Here is the fitted line for regression from the filtered beer data, and it has a correlation coefficient of about 0.46, which indicates a medium strong correlation between beer consumption and drunk driving related deaths. The overall R^2 value for the model is about 0.21, which means that about 21% of the variability in the alcohol related driving deaths are explained by the variability in the beer alcohol consumption by state. <br>
 <br>
