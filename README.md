@@ -59,20 +59,14 @@ Finally from the spirits graph, we don’t see any obvious correlation between c
 # Conclusion
 
 After our data analysis and produced diagrams, we can revisit our questions and provide more insight into our questions.  <br>
-<br>
 * Does a state consuming more alcohol result in larger DUI deaths? <br>
-<br>
 From our visualizations we could not see any obvious trends to support the notion that consuming more alcohol results in higher DUI deaths. Additionally, it appeared that there could be other factors that could contribute to a higher prevalence of DUI deaths.  <br>
-<br>
 * Does the temperature affect how much a state drinks? <br>
-<br>
 In the temperature vs drinking visualization we can see some trends of higher drinking with lower average temperatures, such as midwest states, with all blue states being fairly highly saturated. Also with higher temperatures in states like Florida and Georgia also show higher levels of drinking. Overall, this could show a slight positive correlation between more extreme temperatures and level of drinking.   <br>
-<br>
 * Does the type of alcohol a state consumes correlate to DUI deaths?  <br>
-<br>
 From the beer consumption vs dui deaths plot, we can see some correlation between beer consumption and DUI deaths, which could explain some of the higher levels of DUI deaths in the south, such as Alabama, Arkansas, South Carolina, or Louisiana. That being said, there are states with high levels of beer drinking, such as Minnesota, Wisconsin, or Nevada, yet they do not have high levels of DUI related deaths, indicating a lower correlation. <br>
 
-![Alt text]({{ site.baseurl }}/_includes/scatterPlot.png) <br>
+![Scatter Plot]({{ site.baseurl }}/_includes/scatterPlot.png)
 
 A simple scatter plot with groups of beer spirits and wine show that wine and spirits have little to no correlation, but beer appears to have a slightly higher positive correlation. <br>
 
